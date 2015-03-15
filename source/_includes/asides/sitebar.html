@@ -1,5 +1,4 @@
 <section id="titles">
-  <a href="{{ site.url }}" title="{{ site.title }}"><img id="logo" src="{{ site.url }}/images/{{ site.logo}}" /></a>
   <h1 id="site_title"><a href="{{ site.url }}" title="{{ site.title }}">{{ site.title }}</a></h1>
   <h3 id="site_subtitle">{{ site.subtitle }}</h3>
 </section>
@@ -7,9 +6,10 @@
 <section id="menu">
   <ul>
     <li><i class="fa fa-home fa-lg"></i><a href="{{ site.url }}"> Home </a></li>
-    <li><i class="fa fa-calendar fa-lg"></i><a href="{{ site.url }}/blog/archives/"> Archives </a></li>
+    <li><i class="fa fa-archive"></i><a href="{{ site.url }}/blog/archives/"> Archives </a></li>
     <li><i class="fa fa-user fa-lg"></i><a href="{{ site.url }}/about/"> About </a></li>
-    <li><i class="fa fa-rss fa-lg"></i><a href="{{ site.url }}/atom.xml"> Feed </a></li>
+    <li><i class="fa fa-coffee"></i></i><a href="{{ site.url }}/project/"> My Project </a></li>
+
   </ul>
 </section>
 
@@ -30,11 +30,23 @@
     <a href="https://github.com/{{ site.github_user }}" title="{{ site.github_user}}"><i class="fa fa-github fa-2x"></i></a>
   {% endif %}
 
+  {% if site.linkedin_user != null %}
+    <a href="https://linkedin.com/in/{{ site.linkedin_user }}" title="{{ site.linkedin_user}}"><i class="fa fa-linkedin-square fa-2x"></i></a>
+  {% endif %}
+
   {% if site.pinboard_user != null %}
     <a href="http://pinboard.in/u:{{ site.pinboard_user }}" title="{{ site.pinboard_user}}"><i class="fa fa-thumb-tack fa-2x"></i></a>
   {% endif %}
 
   {% if site.twitter_user != null %}
     <a href="https://twitter.com/{{ site.twitter_user }}" title="{{ site.twitter_user}}"><i class="fa fa-twitter fa-2x"></i></a>
+  {% endif %}
+
+  {% if site.facebook_user != null %}
+    <a href="https://facebook.com/{{ site.facebook_user }}" title="{{ site.facebook_user}}"><i class="fa fa-facebook-square fa-2x"></i></a>
+  {% endif %}
+
+  {% if site.instagram_user != null %}
+    <a href="https://instagram.com/{{ site.instagram_user }}" title="{{ site.instagram_user}}"><i class="fa fa-instagram fa-2x"></i></a>
   {% endif %}
 </section>

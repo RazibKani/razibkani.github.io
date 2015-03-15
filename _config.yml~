@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://username.github.io
+url: http://razibkani.github.io
 title: Razib Kani Maulidan
 subtitle: .geek stuff and psychology.
 author: razibkani
@@ -51,7 +51,7 @@ theme: light
 paginate: 10          # Posts per page on the blog index
 paginate_path: "posts/:num"  # Directory base for pagination URLs eg. /posts/2/
 recent_posts: 8       # Posts in the sidebar Recent Posts section
-excerpt_link: "Selengkapnya &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
+excerpt_link: "Selengkapnya... &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 excerpt_separator: "<!--more-->"
 
 titlecase: true       # Converts page and post titles to titlecase
@@ -105,11 +105,4 @@ disqus_show_comment_count: false
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_user: razibkanimaulidan
 facebook_like: true
-
-# Instagram
-instagram_user: razibkani
-
-# LinkedIn
-linkedin_user: razibkanimaulidan
