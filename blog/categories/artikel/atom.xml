@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: artikel | Razib Kani Maulidan]]></title>
+  <link href="http://razibkani.github.io/blog/categories/artikel/atom.xml" rel="self"/>
+  <link href="http://razibkani.github.io/"/>
+  <updated>2015-08-23T16:04:33+07:00</updated>
+  <id>http://razibkani.github.io/</id>
+  <author>
+    <name><![CDATA[razibkani]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hasta La Vista Powerpoint?]]></title>
+    <link href="http://razibkani.github.io/blog/2015/01/30/hasta-la-vista-powerpoint/"/>
+    <updated>2015-01-30T07:53:24+07:00</updated>
+    <id>http://razibkani.github.io/blog/2015/01/30/hasta-la-vista-powerpoint</id>
+    <content type="html"><![CDATA[<p>Selamat pagi, berhubungan saya dapat jadwal uas nanti sore jadi kita bahas sesuatu dulu ya. Pasti kalian tidak asing lagi dengan Powerpoint kan ? itu loh produk dari mikocok (brand disamarkan :p) untuk membuat presentasi yang berada diantara kawan-kawan mikocok “kantor” alias mikocok office.</p>
+
+<p>Gimana rasanya pake Powerpoint ?
+gampang ? terintegrasi ? tapi mahal kan ? hehehe :)</p>
+
+<p>Berhubungan saya dan mungkin teman-teman berkutat dengan teknologi <em>open source</em>. Lisensi software berbayar adalah sesuatu yang tidak sesuai dengan pedoman hidup bapak kita <a href="http://en.wikipedia.org/wiki/Richard_Stallman">Richard Stallman</a>.</p>
+
+<p>Tadi malam ketika saya menelusuri “rawa-rawa” google, secara tidak sengaja saya menemukan <a href="http://revealjs.com/">RevealJS</a> dan <a href="https://github.com/bartaz/impress.js/">ImpressJS</a>. dimana keduanya merupakan framework untuk membuat presentasi. Bisa presentasi di browser ? “Wow” bukan ?</p>
+
+<!--more-->
+
+<p>Jika anda ingin membuat presentasi seperti Powerpoint, anda bisa menggunakan RevealJS, tapi jika anda ingin membuat presentasi yang unik seperti <a href="http://prezi.com/">Prezi</a> anda bisa menggunakan ImpressJS.</p>
+
+<p>RevealJS memiliki <a href="http://en.wikipedia.org/wiki/MIT_License">lisensi MIT</a> dan ImpressJS memiliki lisensi MIT dan <a href="http://id.wikipedia.org/wiki/Lisensi_Publik_Umum_GNU">GPL</a> (yang pasti keduanya gratis ^^)</p>
+
+<p>Mengenai judul artikel ini, sebenarnya saya tidak benar-benar “menghasut” anda untuk meninggalkan Powerpoint, tapi saya hanya memberikan alternatif yang mungkin bermanfaat untuk anda.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>RevealJS</th>
+      <th>ImpressJS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://lab.hakim.se/reveal-js/#/">Demo RevealJS</a></td>
+      <td><a href="http://bartaz.github.io/impress.js/#/bored">Demo ImpressJS</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/hakimel/reveal.js/wiki/Articles-&amp;-Tutorials">Tutorial RevealJS</a></td>
+      <td><a href="https://github.com/bartaz/impress.js/wiki/impress.js-tutorials-and-other-learning-resources">Tutorial ImpressJS</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br />
+Salam Open Source!</p>
+]]></content>
+  </entry>
+  
+</feed>
